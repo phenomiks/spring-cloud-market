@@ -11,8 +11,8 @@
 
     <artifactId>rest-template</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rest-template</name>
-    <description>Rest Template</description>
+    <name>front-service</name>
+    <description>Front Service. Eureka Client</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -31,9 +31,15 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>ru.geekbrains</groupId>
-            <artifactId>product-service</artifactId>
+            <artifactId>common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

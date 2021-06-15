@@ -3,8 +3,10 @@ BEGIN TRANSACTION ;
 CREATE TABLE products
 (
     id         BIGSERIAL PRIMARY KEY,
-    title      VARCHAR(255)   NOT NULL,
-    price      NUMERIC(10, 2) NOT NULL
+    title      VARCHAR(255)   NOT NULL UNIQUE,
+    price      NUMERIC(10, 2) NOT NULL,
+    created_at TIMESTAMP DEFAULT current_timestamp,
+    updated_at TIMESTAMP DEFAULT current_timestamp
 );
 
 INSERT INTO products (title, price) VALUES
