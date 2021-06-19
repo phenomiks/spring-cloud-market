@@ -6,11 +6,11 @@
     <parent>
         <artifactId>spring-cloud-market</artifactId>
         <groupId>ru.geekbrains</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
-    <artifactId>rest-template</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>front-service</artifactId>
+    <version>1.0.0</version>
     <name>front-service</name>
     <description>Front Service. Eureka Client</description>
 
@@ -38,7 +38,7 @@
         <dependency>
             <groupId>ru.geekbrains</groupId>
             <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

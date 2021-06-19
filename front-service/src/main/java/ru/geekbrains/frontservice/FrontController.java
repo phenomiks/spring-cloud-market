@@ -10,7 +10,7 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 
 @Controller
-@RequestMapping(path = "/api/v1/products")
+@RequestMapping(path = "/products")
 public class FrontController {
     private final ProductServiceClient productServiceClient;
     private String pathAnnotation;
