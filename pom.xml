@@ -7,14 +7,15 @@
 
     <groupId>ru.geekbrains</groupId>
     <artifactId>spring-cloud-market</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-cloud-market</name>
     <description>Spring Cloud Market</description>
 
     <modules>
         <module>eureka-server</module>
         <module>product-service</module>
-        <module>rest-template</module>
+        <module>front-service</module>
+        <module>common</module>
     </modules>
 
     <properties>
