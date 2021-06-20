@@ -24,7 +24,7 @@
 Для запуска проекта выполните следующие действия:
 1. Клонируйте проект:
    ```
-   $ git clone https://github.com/phenomiks/spring-cloud-market.git
+   $ git clone https://github.com/phenomiks/spring-cloud-storage.git
    ```
 2. Соберите проект:
    ```
